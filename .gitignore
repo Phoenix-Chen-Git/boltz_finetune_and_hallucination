@@ -164,3 +164,14 @@ cython_debug/
 # Boltz prediction outputs
 #   All result files generated from a boltz prediction call
 boltz_results_*/
+# Mamba / Conda environments
+.mamba/
+.conda/
+miniforge3/
+
+# Docker cache
+.docker/
+
+# Temporary example files
+examples/*_fixed.yaml
+examples/single_peptide.yaml
